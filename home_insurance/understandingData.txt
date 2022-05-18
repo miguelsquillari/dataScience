@@ -1,0 +1,140 @@
+Entender los datos
+Características
+QUOTE_DATE:             Día en que se realizó la cotización
+COVER_START:            Inicio del pago de la cobertura
+CLAIM3YEARS:            3 últimos años de siniestro
+P1_EMP_STATUS:          Situación profesional del cliente
+P1_PT_EMP_STATUS:       Situación profesional a tiempo parcial del cliente
+BUS_USE:                Indicador de uso comercial
+CLERICAL:               Indicador de uso de la oficina de administración
+AD_BUILDINGS:           Cobertura del edificio - Daños propios
+RISK_RATED_AREA_B:      Clasificación geográfica del riesgo - Edificio
+SUM_INSURED_BUILDINGS:  Suma asegurada - Edificio
+NCD_GRANTED_YEARS_B:    Bonus Malus - Edificio
+AD_CONTENTS:            Cobertura de objetos personales - Daños propios
+RISK_RATED_AREA_C:      Clasificación geográfica del riesgo - Objetos personales
+SUM_INSURED_CONTENTS:   Suma asegurada - Objetos personales
+NCD_GRANTED_YEARS_C:    Bonificación de malus - Objetos personales
+CONTENTS_COVER:         Indicador de cobertura - Objetos personales
+BUILDINGS_COVER:        Indicador de cobertura - Edificio
+SPEC_SUM_INSURED:       Suma asegurada - Objetos personales valiosos
+SPEC_ITEM_PREM:         Prima - Objetos personales de valor
+UNSPEC_HRP_PREM:        Desconocido
+P1_DOB:                 Fecha de nacimiento del cliente
+P1_MAR_STATUS:          Estado civil del cliente
+P1_POLICY_REFUSED:      Indicador de rechazo de la póliza
+P1_SEX:                 Sexo del cliente
+APPR_ALARM:             Alarma apropiada
+APPR_LOCKS:             Cerradura apropiada
+BEDROOMS:               Número de dormitorios
+ROOF_CONSTRUCTION:      Código del tipo de construcción del techo
+WALL_CONSTRUCTION:      Código del tipo de construcción de la pared
+INUNDACIÓN:             Casa susceptible de inundación
+INSCRIPCIÓN:            Edificio del Patrimonio Nacional
+MAX_DAYS_UNOCC:         Número de días desocupados
+NEIGH_WATCH:            Vigías de proximidad presentes
+OCC_STATUS:             Estado de ocupación
+OWNERSHIP_TYPE:         Tipo de pertenencia
+PAYING_GUESTS:          Presencia de huéspedes de pago
+PROP_TYPE:              Tipo de propiedad
+SAFE_INSTALLED:         Caja fuerte instalada
+SEC_DISC_REQ:           Reducción de la prima por seguridad
+SUBSIDENCIA:            Indicador de subsidencia (movimiento relativo hacia abajo de la superficie )
+YEARBUILT:              Año de construcción
+CAMPAÑA_DESC:           Descripción de la campaña de comercialización
+PAYMENT_METHOD:         Método de pago
+PAYMENT_FREQUENCY:      Frecuencia de pago
+LEGAL_ADDON_PRE_REN:    Opción "Honorarios legales" incluida antes de la primera renovación
+LEGAL_ADDON_POST_REN:   Opción "Honorarios legales" incluida después de la 1ª renovación
+HOME_EM_ADDON_PRE_REN:  Opción "Emergencias" incluida antes de la 1ª renovación
+HOME_EM_ADDON_POST_REN: Opción "Emergencias" incluida después de la 1ª renovación
+GARDEN_ADDON_PRE_REN:   Opción "Jardines" incluida antes de la 1ª renovación
+GARDEN_ADDON_POST_REN:  Opción "Jardines" incluida después de la 1ª renovación
+KEYCARE_ADDON_PRE_REN:  Opción "Sustitución de llaves" incluida antes de la 1ª renovación
+KEYCARE_ADDON_POST_REN: Opción "Sustitución de llaves" incluida después de la 1ª renovación
+HP1_ADDON_PRE_REN:      Opción "HP1" incluida antes de la 1ª renovación
+HP1_ADDON_POST_REN:     Opción "HP1" incluida después de la 1ª renovación
+HP2_ADDON_PRE_REN:      Opción "HP2" incluida antes de la primera renovación
+HP2_ADDON_POST_REN:     Opción "HP2" incluida después de la renovación
+HP3_ADDON_PRE_REN:      Opción "HP3" incluida antes de la primera renovación
+HP3_ADDON_POST_REN:     Opción "HP3" incluida después de la renovación
+MTA_FLAG:               Indicador de ajuste a medio plazo
+MTA_FAP:                Bonificación hasta la fecha de ajuste
+MTA_APRP:               Ajuste de la prima para la regularización a medio plazo
+MTA_DATE:               Fecha de la regularización a medio plazo
+LAST_ANN_PREM_GROSS:    Prima - Total del año anterior
+POL_STATUS:             Estado de la póliza
+Poliza:                 Número de póliza
+
+****************************************************************************************************
+
+
+
+
+Understanding the Data
+Features
+QUOTE_DATE:             Day where the quotation was made
+COVER_START:            Beginning of the cover payment
+CLAIM3YEARS:            3 last years loss
+P1_EMP_STATUS:          Client's professional status
+P1_PT_EMP_STATUS:       Client's part-time professional status
+BUS_USE:                Commercial use indicator
+CLERICAL:               Administration office usage indicator
+AD_BUILDINGS:           Building coverage - Self damage
+RISK_RATED_AREA_B:      Geographical Classification of Risk - Building
+SUM_INSURED_BUILDINGS:  Assured Sum - Building
+NCD_GRANTED_YEARS_B:    Bonus Malus - Building
+AD_CONTENTS:            Coverage of personal items - Self Damage
+RISK_RATED_AREA_C:      Geographical Classification of Risk - Personal Objects
+SUM_INSURED_CONTENTS:   Assured Sum - Personal Items
+NCD_GRANTED_YEARS_C:    Malus Bonus - Personal Items
+CONTENTS_COVER:         Coverage - Personal Objects indicator
+BUILDINGS_COVER:        Cover - Building indicator
+SPEC_SUM_INSURED:       Assured Sum - Valuable Personal Property
+SPEC_ITEM_PREM:         Premium - Personal valuable items
+UNSPEC_HRP_PREM:        Unknown
+P1_DOB:                 Date of birth of the client
+P1_MAR_STATUS:          Marital status of the client
+P1_POLICY_REFUSED:      Policy Emission Denial Indicator
+P1_SEX:                 customer sex
+APPR_ALARM:             Appropriate alarm
+APPR_LOCKS:             Appropriate lock
+BEDROOMS:               Number of bedrooms
+ROOF_CONSTRUCTION:      Code of the type of construction of the roof
+WALL_CONSTRUCTION:      Code of the type of wall construction
+FLOODING:               House susceptible to floods
+LISTED:                 National Heritage Building
+MAX_DAYS_UNOCC:         Number of days unoccupied
+NEIGH_WATCH:            Vigils of proximity present
+OCC_STATUS:             Occupancy status
+OWNERSHIP_TYPE:         Type of membership
+PAYING_GUESTS:          Presence of paying guests
+PROP_TYPE:              Type of property
+SAFE_INSTALLED:         Safe installs
+SEC_DISC_REQ:           Reduction of premium for security
+SUBSIDENCE:             Subsidence indicator (relative downwards motion of the surface )
+YEARBUILT:              Year of construction
+CAMPAIGN_DESC:          Description of the marketing campaign
+PAYMENT_METHOD:         Method of payment
+PAYMENT_FREQUENCY:      Frequency of payment
+LEGAL_ADDON_PRE_REN:    Option "Legal Fees" included before 1st renewal
+LEGAL_ADDON_POST_REN:   Option "Legal Fees" included after 1st renewal
+HOME_EM_ADDON_PRE_REN: "Emergencies" option included before 1st renewal
+HOME_EM_ADDON_POST_REN: Option "Emergencies" included after 1st renewal
+GARDEN_ADDON_PRE_REN:   Option "Gardens" included before 1st renewal
+GARDEN_ADDON_POST_REN:  Option "Gardens" included after 1st renewal
+KEYCARE_ADDON_PRE_REN:  Option "Replacement of keys" included before 1st renewal
+KEYCARE_ADDON_POST_REN: Option "Replacement of keys" included after 1st renewal
+HP1_ADDON_PRE_REN:      Option "HP1" included before 1st renewal
+HP1_ADDON_POST_REN:     Option "HP1" included after 1st renewal
+HP2_ADDON_PRE_REN:      Option "HP2" included before 1st renewal
+HP2_ADDON_POST_REN:     Option "HP2" included afterrenewal
+HP3_ADDON_PRE_REN:      Option "HP3" included before 1st renewal
+HP3_ADDON_POST_REN:     Option "HP3" included after renewal
+MTA_FLAG:               Mid-Term Adjustment indicator
+MTA_FAP:                Bonus up to date of Adjustment
+MTA_APRP:               Adjustment of the premium for Mid-Term Adjustmen
+MTA_DATE:               Date of Mid-Term Adjustment
+LAST_ANN_PREM_GROSS:    Premium - Total for the previous year
+POL_STATUS:             Policy status
+Police:                 Policy number
